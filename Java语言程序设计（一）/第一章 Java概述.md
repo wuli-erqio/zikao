@@ -36,3 +36,49 @@ Java语言的前身是Oak语言,是美国Sun Microsystems 公司于1991年推出
 ### 三、配置环境变量
 
 JAVA_HOME、CLASSPATH、Path
+
+## 第三节 Java程序示例
+
+### 一 、Java程序的两种形式
+
+- 一种是ava程序(Java Application 
+
+- 另一种是Java小应用程序(Java Applet ),或叫java小程序。
+
+### 二、Java程序
+
+程序1.1  一个基本的ava应用程序。
+
+简单的应用程序HelloWorld 
+
+```
+public class HelloWorldApp {
+
+	public static void main (String args[]) {
+
+		System.out.println("HelloWorld!");
+	}
+}
+```
+
+###  三、编译
+
+创建HelloWorldApp.java 源文件后,可以用下面的命令
+
+编译:
+
+$javacHelloWorldAppjava 或者
+
+javac [选项] 源文件名
+
+javac d :\ java\HelloWorldApp.java 
+
+### 四、运行
+
+$java HolloWorldApp
+
+###  五、IDE
+
+目前已有多个开发ava程序的DE,其中使用较多的有Eclipse 和NetBeans 
+
+Eclipse 是一款开源免费的,基于ava的可扩展开发平台, 具体来说是一个框架和一组服务,通过插件可以构建开发环境。Eclipse 附带了一个标准的插件集,包括Java开发工具DK,所以可用来开发ava程序。当然,如果更换其他的插件,也可以用来开发其他编程语言的程序,包括C/C++，JavaScript ，perl，PHP和Python 等
