@@ -22,3 +22,17 @@ Java语言的前身是Oak语言,是美国Sun Microsystems 公司于1991年推出
 3. 解释编译两种运行方式
 4. 多线程
 5. 动态执行兼有丰富的API文档及类库
+
+## 二、Java开发环境的安装与设置
+
+### 一、文件下载
+
+登录到下列网址，下载JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+以window10环境为例，下载文件是 jdk-8ul3l-windows-x64.exe
+
+### 二、安装软件
+
+### 三、配置环境变量
+
+JAVA_HOME、CLASSPATH、Path
