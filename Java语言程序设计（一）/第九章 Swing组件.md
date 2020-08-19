@@ -72,3 +72,40 @@ object getselectedItem()
    - void insert( String str; int pos):将指定文本st插入到文本区的特定位置pos处。 
    - void replaceRange( String str, int stan, int end)用指定文本st替换文本区中从起始位置stan到结尾位置end的内容。 
 
+## 第三节 菜单组件
+
+### 一、 菜单栏和菜单 
+
+JMenuBar menuBar= new JMenuBar();//菜单栏 
+
+setJMenuBar(menu Bar): 
+
+//菜单 
+
+JMenu menu1= new JMenu(“文件”) 
+
+JMenu menu2= new JMenu(“帮助" )
+
+menuBar.add(menu) 
+
+menuBar. add( menu) 
+
+### 二、 菜单项 
+
+JMenultem item1= new JMenultem(“打开”) 
+
+JMenultem item2= new JMenuitem(“退出” )
+
+menu1. add(item1) 
+
+menu1. addSeparator()
+
+menu1. add(item2)
+
+### 三、 复选菜单项和单选菜单项 
+
+JCheckBoxMenultem cbm = new JCheckBoxMenultem("Always on Top"); 
+
+JRadioButtonMenuitem rbi=new JRadioButtonMenuitem();
+
+触发 ItemEvent事件,可以使用 ItemListenert中 StateChanged()对此事件进行响应 
