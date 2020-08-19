@@ -109,3 +109,12 @@ JCheckBoxMenultem cbm = new JCheckBoxMenultem("Always on Top");
 JRadioButtonMenuitem rbi=new JRadioButtonMenuitem();
 
 触发 ItemEvent事件,可以使用 ItemListenert中 StateChanged()对此事件进行响应 
+
+## 第四节 对话框
+
+### 一、对话框（JDialog）
+
+模式对话框：关闭之前其他窗口无法操作
+
+非模式对话框：不管是否关闭，其他窗口都可以接受操作
+
