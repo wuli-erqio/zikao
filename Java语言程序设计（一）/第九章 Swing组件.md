@@ -118,3 +118,22 @@ JRadioButtonMenuitem rbi=new JRadioButtonMenuitem();
 
 非模式对话框：不管是否关闭，其他窗口都可以接受操作
 
+### 二、标准对话框 
+
+showConfirmDialog:确认对话框,显示问题,要求用户进行确认(yes/no/ cance)。 
+
+showInputDialog:输入对话框,提示用户进行输入。 
+
+showMessageDialog:信息对话框,显示信息,告知 用户发生了什么情况 
+
+showOptionDialog:选项对话框,显示选项,要求用户进行选择 
+
+### 三、文件对话框
+
+ showOpenDialog( Component parent) ：弹出一个“打开”文件对话框 
+
+showSaveDialog(component parent): 弹出一个“保存”文件对话框 
+
+getSelectedFile():取得用户所选择的文件。 
+
+结果File对象,得到打开的文件。
