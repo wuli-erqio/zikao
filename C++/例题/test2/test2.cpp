@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream.h>
 
 //int max(int, int); // 声明含有两个整数参数的函数原型
 // 定义含有两个整数参数的函数
