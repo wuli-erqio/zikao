@@ -79,7 +79,7 @@ $java HolloWorldApp
 
 ###  五、IDE
 
-目前已有多个开发ava程序的DE,其中使用较多的有Eclipse 和NetBeans 
+目前已有多个开发java程序的IDE,其中使用较多的有Eclipse 和NetBeans 
 
 Eclipse 是一款开源免费的,基于ava的可扩展开发平台, 具体来说是一个框架和一组服务,通过插件可以构建开发环境。Eclipse 附带了一个标准的插件集,包括Java开发工具DK,所以可用来开发ava程序。当然,如果更换其他的插件,也可以用来开发其他编程语言的程序,包括C/C++，JavaScript ，perl，PHP和Python 等
 
